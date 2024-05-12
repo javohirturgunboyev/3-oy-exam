@@ -1,0 +1,181 @@
+/* exo-2-regular - cyrillic_cyrillic-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/exo-2-v21-cyrillic_cyrillic-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* exo-2-500 - cyrillic_cyrillic-ext */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/exo-2-v21-cyrillic_cyrillic-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* exo-2-600 - cyrillic_cyrillic-ext */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/exo-2-v21-cyrillic_cyrillic-ext-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* pt-sans-regular - cyrillic_cyrillic-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/pt-sans-v17-cyrillic_cyrillic-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* pt-sans-700 - cyrillic_cyrillic-ext */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/pt-sans-v17-cyrillic_cyrillic-ext-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+.container{
+max-width: 1240px;
+width: 100%;
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+}
+
+.main{
+display: flex;
+align-items: center;
+padding-top: 109px;
+}
+
+.info h1{
+    width: 610px;
+    height: 119px;
+    top: 190px;
+    left: 100px;
+    gap: 0px;
+
+    font-family: 'Exo 2';
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: left;
+        
+}
+
+.info h5{
+border:3px solid #FFCE50;
+width:100px;padding-bottom: 5px;
+border-left: none;
+border-right: none;
+border-top:none;
+width: 105px;
+// /height: 17px;
+top: 455px;
+left: 100px;
+gap: 0px;
+opacity: 0px;
+font-family: PT Sans;
+font-size: 15px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+
+}
+.info2{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white; 
+    align-items:center;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.25);
+
+}
+
+.three_info{border-right:3px solid
+    rgb(215, 215, 221);
+    padding-right: 100px;
+    margin-left: 14px;
+}
+.three_info:last-child{
+    border-right:none
+}
+@media  (max-width: 1170px) {.three_info{border-right:none;}
+
+}
+    
+
+.three_info h4{
+    width: 228px;
+    height: 48px;
+    top: 837px;
+    left: 180px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Exo 2;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+        
+}
+
+.three_info p{
+    width: 225px;
+    height: 65px;
+    top: 901px;
+    left: 180px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+        
+}
+
+.portifolio{
+position: relative;
+padding-top: 67px;
+}
+
+.div{
+position: absolute;
+
+}
+
+.div h2{
+padding-top: 15px;
+}
+
+.truck{
+position: absolute;
+margin-top: 0px;    
+}
+
+.text{
+position: absolute;
+width: 362px;
+height: 109px;
+font-family: Exo 2;
+font-size: 35px;
+font-weight: 600;
+line-height: 60px;
+text-align: left;
+left: 90px;
+top: 178px;
+color:white;
+}
+
+
+
