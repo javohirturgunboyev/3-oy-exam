@@ -48,6 +48,7 @@
 
 .main {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding-top: 109px;
 }
@@ -122,6 +123,7 @@
 
 @media (max-width: 1170px) {
   .three_info {
+    flex-wrap: wrap;
     border-right: none;
   }
 }
@@ -154,6 +156,7 @@
 }
 
 .portifolio {
+  flex-wrap: wrap;
   position: relative;
   padding-top: 67px;
 }
@@ -188,6 +191,7 @@
 .informations {
   padding-top: 500px;
   display: flex;
+  flex-wrap: wrap;
   gap: 140px;
 }
 
@@ -197,6 +201,11 @@
   padding-top: 62px;
   padding-left: 84px;
   align-items: center;
+}
+
+.truck_information {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .truck_information h2 {
@@ -229,6 +238,7 @@
 
 .truckses {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -387,6 +397,11 @@ th h3 {
   text-align: left;
 }
 
+.contracts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .contract {
   display: flex;
   flex-wrap: wrap;
@@ -435,12 +450,14 @@ th h3 {
 
 .logos {
   display: flex;
+  flex-wrap: wrap;
   gap: 133px;
   padding-top: 90px;
 }
 
 .employees {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -472,6 +489,7 @@ th h3 {
 }
 
 .Company_employeeses {
+  flex-wrap: wrap;
   width: 90px;
   height: 210px;
   top: 5651px;
@@ -666,6 +684,7 @@ th h3 {
 
 .class {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 15px;
   padding-left: 48px;
@@ -673,6 +692,7 @@ th h3 {
 }
 
 .truck_video {
+  flex-wrap: wrap;
   width: 1245px;
   height: 667px;
   padding-top: 46px;
@@ -680,6 +700,7 @@ th h3 {
 
 .footer {
   display: flex;
+  flex-wrap: wrap;
   width: 1240px;
   height: 365px;
   margin-top: 166px;
@@ -701,6 +722,7 @@ th h3 {
 }
 
 .buttoned {
+  flex-wrap: wrap;
   color: white;
   padding-top: 80px;
   padding-bottom: 124px;
@@ -717,4 +739,27 @@ th h3 {
   background: #FF9619;
   color: white;
   border: 1px solid #FF9619;
+}
+
+@media (max-width: 920px) {
+  .container {
+    width: 460px;
+  }
+}
+@media (max-width: 760px) {
+  .container {
+    width: 380px;
+    height: 9964px;
+  }
+}
+@media (max-width: 560px) {
+  .container {
+    width: 280px;
+    height: 7712px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    width: 160px;
+  }
 }/*# sourceMappingURL=style.css.map */

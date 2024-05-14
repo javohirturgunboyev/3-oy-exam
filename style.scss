@@ -50,6 +50,7 @@ box-sizing: border-box;
 
 .main{
 display: flex;
+flex-wrap: wrap;
 align-items: center;
 padding-top: 109px;
 }
@@ -125,7 +126,11 @@ text-align: left;
 .three_info:last-child{
     border-right:none
 }
-@media  (max-width: 1170px) {.three_info{border-right:none;}
+@media  (max-width: 1170px) {
+    .three_info{
+        flex-wrap: wrap;
+        border-right:none;
+    }
 
 }
     
@@ -161,6 +166,7 @@ text-align: left;
 }
 
 .portifolio{
+    flex-wrap: wrap;
 position: relative;
 padding-top: 67px;
 }
@@ -196,6 +202,7 @@ color:white;
 .informations{
 padding-top: 500px;
 display: flex;
+flex-wrap: wrap;
 gap: 140px;
 
 
@@ -218,6 +225,11 @@ align-items:center
 // border-radius:50px
 
 // }
+
+.truck_information{
+display: flex;
+flex-wrap: wrap;
+}
 
 .truck_information h2{
     width: 687px;
@@ -251,6 +263,7 @@ align-items:center
 
 .truckses{
 display: flex;
+flex-wrap: wrap;
 gap: 30px;
 }
 
@@ -424,6 +437,11 @@ background-color:white;
         
 }
 
+.contracts{
+display: flex;
+flex-wrap: wrap;
+}
+
 .contract{
 display: flex;
 flex-wrap: wrap;
@@ -475,12 +493,14 @@ text-align: left;
 
 .logos{
 display: flex;
+flex-wrap: wrap;
 gap: 133px;
 padding-top: 90px;
 }
 
 .employees{
 display: flex;
+flex-wrap: wrap;
 gap: 30px;
 }
 
@@ -514,6 +534,7 @@ height: 210px;
 }
 
 .Company_employeeses{
+    flex-wrap: wrap;
     width: 90px;
     height: 210px;
     top: 5651px;
@@ -527,6 +548,7 @@ height: 210px;
 .companyes{
     // padding-left: 200px;
     display: flex;
+    // flex-wrap: wrap ;
     align-items:center;
     gap: 40px;
 }
@@ -728,6 +750,7 @@ height: 383px;
 
 .class{
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 padding-top: 15px;
 padding-left: 48px;
@@ -736,6 +759,7 @@ padding-right: 72px;
 }
 
 .truck_video{
+    flex-wrap: wrap;
     width: 1245px;
     height: 667px;
     padding-top: 46px;
@@ -744,6 +768,7 @@ padding-right: 72px;
 
 .footer{
     display: flex;
+    flex-wrap: wrap;
 width: 1240px;
 height: 365px;
 margin-top: 166px;
@@ -766,6 +791,7 @@ gap: 97px;
 }
 
 .buttoned{
+    flex-wrap: wrap;
 color:white;
 padding-top: 80px;
 padding-bottom: 124px;
@@ -782,4 +808,31 @@ padding-bottom: 124px;
     background: #FF9619;
 color:white;
     border: 1px solid #FF9619    
+}
+
+@media (max-width:920px) {
+    .container{
+    width: 460px;
+    }
+}
+
+@media (max-width:760px) {
+    .container{
+        // display: flex;
+    width: 380px;
+    height: 9964px;
+    }
+}
+
+@media (max-width:560px) {
+    .container{
+    width: 280px;
+    height: 7712px;
+    }
+}
+
+@media (max-width:320px) {
+ .container{
+width: 160px;
+}   
 }
