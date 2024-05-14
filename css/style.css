@@ -65,6 +65,20 @@
   text-align: left;
 }
 
+.info p {
+  width: 525px;
+  height: 66px;
+  top: 349px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
 .info h5 {
   border: 3px solid #FFCE50;
   width: 100px;
@@ -77,7 +91,7 @@
   left: 100px;
   gap: 0px;
   opacity: 0px;
-  font-family: PT Sans;
+  font-family: "PT Sans";
   font-size: 15px;
   font-weight: 700;
   line-height: 24px;
@@ -118,7 +132,7 @@
   left: 180px;
   gap: 0px;
   opacity: 0px;
-  font-family: Exo 2;
+  font-family: "Exo 2";
   font-size: 20px;
   font-weight: 600;
   line-height: 27px;
@@ -132,7 +146,7 @@
   left: 180px;
   gap: 0px;
   opacity: 0px;
-  font-family: PT Sans;
+  font-family: "PT Sans";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -161,7 +175,7 @@
   position: absolute;
   width: 362px;
   height: 109px;
-  font-family: Exo 2;
+  font-family: "Exo 2";
   font-size: 35px;
   font-weight: 600;
   line-height: 60px;
@@ -169,4 +183,538 @@
   left: 90px;
   top: 178px;
   color: white;
+}
+
+.informations {
+  padding-top: 500px;
+  display: flex;
+  gap: 140px;
+}
+
+.information {
+  display: flex;
+  gap: 40px;
+  padding-top: 62px;
+  padding-left: 84px;
+  align-items: center;
+}
+
+.truck_information h2 {
+  width: 687px;
+  height: 49px;
+  top: 1957px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+}
+
+.truck_information p {
+  width: 667px;
+  height: 41px;
+  top: 2038px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.truckses {
+  display: flex;
+  gap: 30px;
+}
+
+.trucks {
+  width: 390px;
+  height: 400px;
+  flex-wrap: wrap;
+  border: 2px solid white;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.trucks h4 {
+  width: 327px;
+  height: 21px;
+  top: 2406px;
+  left: 132px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+}
+
+.trucks p {
+  width: 291px;
+  height: 41px;
+  top: 2443px;
+  left: 132px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.trucks h3 {
+  border: 3px solid #FFCE50;
+  width: 90px;
+  padding-bottom: 5px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.logotiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table {
+  margin-top: 212px;
+  display: flex;
+  position: relative;
+  width: 1239px;
+  height: 917px;
+  background-color: #0B7572;
+}
+
+.table h5 {
+  color: white;
+  width: 277px;
+  height: 109px;
+  margin-top: 100px;
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+}
+
+table {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #0B7572;
+  color: white;
+  padding: 20px 57px;
+}
+
+th {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+th p {
+  width: 112px;
+  height: 90px;
+  padding-left: 20px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+}
+
+th h2 {
+  width: 134px;
+  height: 14px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.9px;
+  text-align: left;
+}
+
+th h3 {
+  width: 117px;
+  height: 14px;
+  padding-left: 20px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+}
+
+.table-text {
+  margin-left: 50px;
+}
+
+.table {
+  display: flex;
+}
+
+.tablet {
+  margin-top: 100px;
+  width: 652px;
+  height: 747px;
+  margin-left: 130px;
+  padding-right: 66px;
+  background-color: white;
+}
+
+.etab {
+  width: 687px;
+  height: 49px;
+  top: 3824px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo 2";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+}
+
+.contract {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid white;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.contract h4 {
+  border: 3px solid #FFCE50;
+  width: 100px;
+  padding-bottom: 5px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 100px;
+  height: 20px;
+  top: 3953px;
+  left: 632px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo 2";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+}
+
+.They_believe_in_us h2 {
+  width: 687px;
+  height: 49px;
+  top: 4824px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+}
+
+.logos {
+  display: flex;
+  gap: 133px;
+  padding-top: 90px;
+}
+
+.employees {
+  display: flex;
+  gap: 30px;
+}
+
+.company {
+  width: 687px;
+  height: 49px;
+  top: 5530px;
+  left: 101px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo 2";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+}
+
+.Company_employees {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid white;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  width: 605px;
+  height: 210px;
+}
+
+.Company_employeeses {
+  width: 90px;
+  height: 210px;
+  top: 5651px;
+  margin-left: 0px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #0B7572;
+}
+
+.companyes {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.companyes p {
+  border: 3px solid #FFCE50;
+  width: 90px;
+  padding-bottom: 5px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 172px;
+  height: 15px;
+  top: 5730px;
+  left: 361px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.kontakt {
+  width: 687px;
+  height: 49px;
+  top: 6459px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo 2";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+}
+
+.block {
+  display: flex;
+  padding-top: 80px;
+}
+
+.blocked {
+  padding-right: 221px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+}
+
+.phone p {
+  width: 172px;
+  height: 15px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.phone h4 {
+  width: 165px;
+  height: 20px;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+}
+
+.email p {
+  width: 172px;
+  height: 15px;
+  top: 6689px;
+  left: 160px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.email h4 {
+  width: 165px;
+  height: 20px;
+  top: 6712px;
+  left: 160px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.mesenger {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+}
+
+.mesenger p {
+  width: 172px;
+  height: 15px;
+  top: 6776px;
+  left: 160px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.mesenger h4 {
+  width: 188px;
+  height: 20px;
+  top: 6799px;
+  left: 160px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.skype {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+}
+
+.skype p {
+  width: 172px;
+  height: 15px;
+  top: 6863px;
+  left: 160px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.skype h4 {
+  width: 188px;
+  height: 20px;
+  top: 6886px;
+  left: 160px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.adres {
+  background-color: #E9EAF2;
+  width: 794px;
+  height: 383px;
+}
+
+.class {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-left: 48px;
+  padding-right: 72px;
+}
+
+.truck_video {
+  width: 1245px;
+  height: 667px;
+  padding-top: 46px;
+}
+
+.footer {
+  display: flex;
+  width: 1240px;
+  height: 365px;
+  margin-top: 166px;
+  background: #0B7572;
+}
+
+.logo_logo {
+  padding-top: 59px;
+  padding-left: 95px;
+}
+
+.footered {
+  display: flex;
+  color: white;
+  padding-top: 80px;
+  padding-left: 134px;
+  padding-right: 180px;
+  gap: 97px;
+}
+
+.buttoned {
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 124px;
+}
+
+.buttoned button {
+  width: 271px;
+  height: 42px;
+  top: 8041px;
+  left: 935px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #FF9619;
+  color: white;
+  border: 1px solid #FF9619;
 }/*# sourceMappingURL=style.css.map */
